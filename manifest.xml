@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adapt_framework>
+    <bundle>
+        <name>Locales - US</name>
+        <type>Extension</type>
+        <version>1.0.0</version>
+        <namespace>/extensions/locales_us</namespace>
+        <description></description>
+        <copyright>2015 - Adapt Framework</copyright>
+        <license>MIT</license>
+        <website>http://www.adaptframework.com</website>
+        <depends_on>
+            <bundle>locales</bundle>
+        </depends_on>
+    </bundle>
+</adapt_framework>
