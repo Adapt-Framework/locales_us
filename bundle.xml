@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adapt_framework>
+    <bundle>
+        <name>locales_us</name>
+        <label>US Locality</label>
+        <type>extension</type>
+        <version>1.0.0</version>
+        <namespace>/extensions/locales_us</namespace>
+        <description>Provides locality information for the US, such as phone number, address and date formats.</description>
+        <copyright>2015 Adapt Framework</copyright>
+        <license>MIT</license>
+        <website>http://www.adaptframework.com/documentaion/extentions/locales_us</website>
+        <depends_on>
+            <bundle>locales</bundle>
+        </depends_on>
+        <settings>
+            <category name="Default locales">
+                <setting>
+                    <name>locales.default_date_format</name>
+                    <label>Default date format</label>
+                    <default_value>us_date</default_value>
+                </setting>
+                <setting>
+                    <name>locales.default_time_format</name>
+                    <label>Default time format</label>
+                    <default_value>us_time</default_value>
+                </setting>
+                <setting>
+                    <name>locales.default_datetime_format</name>
+                    <label>Default date/time format</label>
+                    <default_value>us_datetime</default_value>
+                </setting>
+            </category>
+        </settings>
+    </bundle>
+</adapt_framework>
