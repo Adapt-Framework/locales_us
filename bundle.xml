@@ -16,17 +16,17 @@
         <settings>
             <category name="Default locales">
                 <setting>
-                    <name>locales.default_date_format</name>
+                    <name>adapt.default_date_format</name>
                     <label>Default date format</label>
                     <default_value>us_date</default_value>
                 </setting>
                 <setting>
-                    <name>locales.default_time_format</name>
+                    <name>adapt.default_time_format</name>
                     <label>Default time format</label>
                     <default_value>us_time</default_value>
                 </setting>
                 <setting>
-                    <name>locales.default_datetime_format</name>
+                    <name>adapt.default_datetime_format</name>
                     <label>Default date/time format</label>
                     <default_value>us_datetime</default_value>
                 </setting>
